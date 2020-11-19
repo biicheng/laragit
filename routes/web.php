@@ -24,7 +24,7 @@ Route::get('/test', function(){
 });
 
 Route::get('/hello-world', function () {
-    return view('Welcome To my laravel！');
+    return view('Welcome to My laravel！');
 });
 
 Route::get('/about_us', function () {
